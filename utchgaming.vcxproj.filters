@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Defines">
+      <UniqueIdentifier>{fc3fcdf8-a250-48d8-a0cd-b4463fac6d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{7c474d98-1eeb-449a-80f3-8346f2c858a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defines\LazyImporter">
+      <UniqueIdentifier>{90d7fc60-c140-4a2e-9ed6-90b6426a8321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuRender">
+      <UniqueIdentifier>{7412f7a7-dfd3-44d2-852c-34676a4002e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Threedefine.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectordefines.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="LazyImporter.hpp">
+      <Filter>Defines\LazyImporter</Filter>
+    </ClInclude>
+    <ClInclude Include="zgui.h">
+      <Filter>MenuRender</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
